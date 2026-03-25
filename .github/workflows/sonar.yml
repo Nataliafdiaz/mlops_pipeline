@@ -32,7 +32,9 @@ jobs:
       - name: Run tests with coverage
         working-directory: avance_4
         run: |
-          pytest --cov=app --cov-report=xml
+          run: |
+           cd avance_4
+           pytest --cov=app --cov-report=xml
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v5
