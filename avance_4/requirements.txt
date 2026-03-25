@@ -8,3 +8,4 @@ streamlit
 requests
 pytest
 pytest-cov
+httpx
