@@ -1,0 +1,45 @@
+2026-03-26 19:33:11.509548 - Inicio del monitoreo de la API
+2026-03-26 19:33:11.785430 - Endpoint '/' OK
+2026-03-26 19:33:12.195483 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:34:12.234107 - Endpoint '/' OK
+2026-03-26 19:34:12.284813 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:35:12.301319 - Endpoint '/' OK
+2026-03-26 19:35:12.337843 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:36:12.354712 - Endpoint '/' OK
+2026-03-26 19:36:12.396090 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:37:12.420291 - Endpoint '/' OK
+2026-03-26 19:37:12.494248 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:38:12.524827 - Endpoint '/' OK
+2026-03-26 19:38:12.576136 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:39:12.615748 - Endpoint '/' OK
+2026-03-26 19:39:12.658548 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:40:12.692754 - Endpoint '/' OK
+2026-03-26 19:40:12.728461 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:41:12.738546 - Endpoint '/' OK
+2026-03-26 19:41:12.760111 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:42:13.276963 - Endpoint '/' OK
+2026-03-26 19:42:13.354493 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:43:13.387098 - Endpoint '/' OK
+2026-03-26 19:43:13.415361 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:44:13.441764 - Endpoint '/' OK
+2026-03-26 19:44:13.488858 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:45:13.506484 - Endpoint '/' OK
+2026-03-26 19:45:13.533932 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:46:13.562880 - Endpoint '/' OK
+2026-03-26 19:46:13.598932 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:47:13.627269 - Endpoint '/' OK
+2026-03-26 19:47:13.687694 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:48:13.695214 - Endpoint '/' OK
+2026-03-26 19:48:13.719373 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:49:13.728693 - Endpoint '/' OK
+2026-03-26 19:49:13.774139 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:50:13.782713 - Endpoint '/' OK
+2026-03-26 19:50:13.814054 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:51:13.839846 - Endpoint '/' OK
+2026-03-26 19:51:13.860945 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:52:13.896919 - Endpoint '/' OK
+2026-03-26 19:52:13.932093 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:53:13.949961 - Endpoint '/' OK
+2026-03-26 19:53:13.995700 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}
+2026-03-26 19:54:14.029210 - Endpoint '/' OK
+2026-03-26 19:54:14.082584 - Endpoint '/predict' OK - respuesta: {'prediccion': 1}

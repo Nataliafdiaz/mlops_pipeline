@@ -1,0 +1,49 @@
+name: SonarQube
+
+on:
+  push:
+    branches:
+      - main
+      - developer
+
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  sonarcloud:
+    name: SonarCloud
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r avance_4/requirements.txt
+
+      - name: Run tests with coverage
+        run: |
+          cd avance_4
+          export PYTHONPATH=$PWD
+          pytest --cov=app --cov-report=xml
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarqube-scan-action@v5
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          projectBaseDir: avance_4
+          args: >
+            -Dsonar.projectKey=Nataliafdiaz_mlops_pipeline
+            -Dsonar.organization=nataliafdiaz
+            -Dsonar.sources=app
+            -Dsonar.tests=tests
+            -Dsonar.python.coverage.reportPaths=coverage.xml
