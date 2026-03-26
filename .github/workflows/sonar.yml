@@ -30,8 +30,9 @@ jobs:
           pip install -r avance_4/requirements.txt
 
       - name: Run tests with coverage
-        working-directory: avance_4
         run: |
+          cd avance_4
+          export PYTHONPATH=$PWD
           pytest --cov=app --cov-report=xml
 
       - name: SonarCloud Scan
